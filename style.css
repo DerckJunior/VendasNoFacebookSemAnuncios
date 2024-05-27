@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'Lemon';
+    src: url(fontes/lemon_milk/LEMONMILK-Bold.otf);
+}
+
+
+
+body{
+padding: 0;
+margin: 0;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+
+#tema{
+    /*AFASTAMENTO*/
+    margin-top: 0;
+    padding-top: 0;
+
+    /*TAMANHO*/
+    height: 50px;
+
+    text-align: center;
+    color: white;
+    background-color: #0866FF;
+
+    /*SOMBRAS*/
+    box-shadow: 1px 3px 12px black;
+}
+
+#tema > h1{
+
+    padding-top: 10px;
+    margin: 0;
+    font-size: 5vh;
+    font-family: 'Lemon';
+
+}
+
+
+
+main{
+    /*AFASTAMENTO DO MAIN*/
+    margin: 0px auto 0px auto;
+    padding: 10px;
+    min-width: 320px;
+    max-width: 800px;
+    box-shadow: 1px 10px 12px black;
+}
+
+main > p {
+    
+    margin-top: 0;
+    padding-top: 10px;
+    text-indent: 40px;
+    line-height: 1.5em;
+}
+
+footer{
+    margin: 10px;
+    text-align: center;
+    color: white;
+    background-color: #3a86ff;
+}
+
+
+
+div.video{
+    align-items: center;
+    background-color: #0f6bff93;
+
+    padding: 20px;
+        padding-bottom: 43%;
+    position: relative;
+}
+
+div.video > iframe{
+
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
